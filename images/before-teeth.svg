@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="beforeBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F5F0F0"/><stop offset="100%" stop-color="#E8DEDE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#beforeBg)"/>
+  <!-- Jaw outline -->
+  <path d="M200 200 Q400 350 600 200" fill="none" stroke="#8B7070" stroke-width="3" opacity="0.2"/>
+  <!-- Misaligned teeth (before treatment) -->
+  <g transform="translate(240,150)" opacity="0.4">
+    <!-- Teeth with gaps and misalignment -->
+    <path d="M0 0 C-5-20 -3-45 5-42 C13-39 12-15 15 5" fill="#C4A8A8" stroke="#8B7070" stroke-width="1.5"/>
+    <path d="M25-10 C22-35 28-55 35-50 C42-45 38-25 40-5" fill="#C4A8A8" stroke="#8B7070" stroke-width="1.5" transform="rotate(-8 32 -25)"/>
+    <path d="M55 0 C50-25 55-48 62-48 C69-48 74-25 70 0" fill="#C4A8A8" stroke="#8B7070" stroke-width="1.5"/>
+    <path d="M85-8 C82-30 78-52 90-55 C102-52 95-28 92-5" fill="#C4A8A8" stroke="#8B7070" stroke-width="1.5" transform="rotate(10 88 -28)"/>
+    <path d="M110 5 C105-20 110-45 118-42 C126-39 125-18 120 5" fill="#C4A8A8" stroke="#8B7070" stroke-width="1.5"/>
+    <path d="M140-5 C137-28 135-48 145-52 C155-48 150-25 148 0" fill="#C4A8A8" stroke="#8B7070" stroke-width="1.5" transform="rotate(-5 145 -25)"/>
+    <path d="M170 0 C165-22 168-42 175-42 C182-42 185-22 180 0" fill="#C4A8A8" stroke="#8B7070" stroke-width="1.5"/>
+    <path d="M200-10 C195-30 200-50 207-47 C214-44 212-28 208-5" fill="#C4A8A8" stroke="#8B7070" stroke-width="1.5" transform="rotate(6 205 -25)"/>
+    <path d="M230 5 C227-15 228-38 235-40 C242-38 243-15 240 5" fill="#C4A8A8" stroke="#8B7070" stroke-width="1.5"/>
+    <path d="M260-3 C257-23 255-42 262-44 C269-42 268-22 265 0" fill="#C4A8A8" stroke="#8B7070" stroke-width="1.5" transform="rotate(-4 262 -20)"/>
+  </g>
+  <!-- Braces wire hint -->
+  <path d="M252 140 Q400 115 548 140" fill="none" stroke="#8B7070" stroke-width="1.5" opacity="0.2" stroke-dasharray="4 4"/>
+  <!-- Label -->
+  <text x="400" y="420" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" fill="#8B7070" opacity="0.5" font-weight="600">Vorher</text>
+  <text x="400" y="455" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#8B7070" opacity="0.4">Beispiel – Bild wird ersetzt</text>
+</svg>

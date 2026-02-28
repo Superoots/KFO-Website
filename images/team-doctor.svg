@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" fill="none">
+  <defs>
+    <linearGradient id="avatarBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EEF7F6"/>
+      <stop offset="100%" stop-color="#D5EFEC"/>
+    </linearGradient>
+  </defs>
+  <circle cx="140" cy="140" r="140" fill="url(#avatarBg)"/>
+  <!-- Head -->
+  <circle cx="140" cy="105" r="50" fill="#2A9D8F" opacity="0.2"/>
+  <!-- Body -->
+  <path d="M75 240 C75 190 105 170 140 170 C175 170 205 190 205 240" fill="#2A9D8F" opacity="0.15"/>
+  <!-- Glasses (doctor detail) -->
+  <circle cx="125" cy="100" r="16" fill="none" stroke="#2A9D8F" stroke-width="2.5" opacity="0.35"/>
+  <circle cx="155" cy="100" r="16" fill="none" stroke="#2A9D8F" stroke-width="2.5" opacity="0.35"/>
+  <line x1="141" y1="100" x2="139" y2="100" stroke="#2A9D8F" stroke-width="2.5" opacity="0.35"/>
+  <!-- Stethoscope hint -->
+  <path d="M120 155 Q140 175 160 155" fill="none" stroke="#2A9D8F" stroke-width="2" opacity="0.25"/>
+  <circle cx="140" cy="178" r="5" fill="#2A9D8F" opacity="0.25"/>
+</svg>

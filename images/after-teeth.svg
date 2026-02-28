@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <defs>
+    <linearGradient id="afterBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8F4F8"/><stop offset="100%" stop-color="#D0EDE8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#afterBg)"/>
+  <!-- Jaw outline -->
+  <path d="M200 200 Q400 320 600 200" fill="none" stroke="#2A9D8F" stroke-width="3" opacity="0.2"/>
+  <!-- Aligned teeth (after treatment) -->
+  <g transform="translate(245,150)" opacity="0.5">
+    <!-- Perfectly aligned teeth -->
+    <path d="M0 0 C-3-22 0-45 7-45 C14-45 17-22 14 0" fill="#B8DDD6" stroke="#2A9D8F" stroke-width="1.5"/>
+    <path d="M22 0 C19-24 22-48 29-48 C36-48 39-24 36 0" fill="#B8DDD6" stroke="#2A9D8F" stroke-width="1.5"/>
+    <path d="M44 0 C41-22 44-46 51-46 C58-46 61-22 58 0" fill="#B8DDD6" stroke="#2A9D8F" stroke-width="1.5"/>
+    <path d="M66 0 C63-25 66-50 73-50 C80-50 83-25 80 0" fill="#B8DDD6" stroke="#2A9D8F" stroke-width="1.5"/>
+    <path d="M88 0 C85-28 88-52 95-52 C102-52 105-28 102 0" fill="#B8DDD6" stroke="#2A9D8F" stroke-width="1.5"/>
+    <path d="M110 0 C107-28 110-52 117-52 C124-52 127-28 124 0" fill="#B8DDD6" stroke="#2A9D8F" stroke-width="1.5"/>
+    <path d="M132 0 C129-25 132-50 139-50 C146-50 149-25 146 0" fill="#B8DDD6" stroke="#2A9D8F" stroke-width="1.5"/>
+    <path d="M154 0 C151-22 154-46 161-46 C168-46 171-22 168 0" fill="#B8DDD6" stroke="#2A9D8F" stroke-width="1.5"/>
+    <path d="M176 0 C173-24 176-48 183-48 C190-48 193-24 190 0" fill="#B8DDD6" stroke="#2A9D8F" stroke-width="1.5"/>
+    <path d="M198 0 C195-22 198-45 205-45 C212-45 215-22 212 0" fill="#B8DDD6" stroke="#2A9D8F" stroke-width="1.5"/>
+    <path d="M220 0 C217-22 220-45 227-45 C234-45 237-22 234 0" fill="#B8DDD6" stroke="#2A9D8F" stroke-width="1.5"/>
+    <path d="M242 0 C239-20 242-42 249-42 C256-42 259-20 256 0" fill="#B8DDD6" stroke="#2A9D8F" stroke-width="1.5"/>
+  </g>
+  <!-- Sparkles -->
+  <g fill="#2A9D8F" opacity="0.3">
+    <path d="M220 100 L224 110 L234 114 L224 118 L220 128 L216 118 L206 114 L216 110Z"/>
+    <path d="M560 120 L563 127 L570 130 L563 133 L560 140 L557 133 L550 130 L557 127Z" transform="scale(0.8) translate(100, 20)"/>
+    <path d="M180 280 L183 287 L190 290 L183 293 L180 300 L177 293 L170 290 L177 287Z" transform="scale(0.6) translate(100, 100)"/>
+  </g>
+  <!-- Checkmark -->
+  <circle cx="400" cy="330" r="20" fill="#2A9D8F" opacity="0.15"/>
+  <path d="M390 330 L397 337 L412 322" fill="none" stroke="#2A9D8F" stroke-width="2.5" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Label -->
+  <text x="400" y="420" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" fill="#2A9D8F" opacity="0.6" font-weight="600">Nachher</text>
+  <text x="400" y="455" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#2A9D8F" opacity="0.4">Beispiel – Bild wird ersetzt</text>
+</svg>

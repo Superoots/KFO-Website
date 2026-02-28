@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" fill="none">
+  <defs>
+    <linearGradient id="avatarBg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EEF7F6"/>
+      <stop offset="100%" stop-color="#D5EFEC"/>
+    </linearGradient>
+  </defs>
+  <circle cx="140" cy="140" r="140" fill="url(#avatarBg1)"/>
+  <!-- Hair -->
+  <ellipse cx="140" cy="90" rx="55" ry="55" fill="#2A9D8F" opacity="0.12"/>
+  <ellipse cx="140" cy="75" rx="50" ry="40" fill="#2A9D8F" opacity="0.1"/>
+  <!-- Head -->
+  <circle cx="140" cy="105" r="45" fill="#2A9D8F" opacity="0.2"/>
+  <!-- Body -->
+  <path d="M80 240 C80 195 110 175 140 175 C170 175 200 195 200 240" fill="#2A9D8F" opacity="0.15"/>
+  <!-- Smile -->
+  <path d="M125 112 Q140 125 155 112" fill="none" stroke="#2A9D8F" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+</svg>
